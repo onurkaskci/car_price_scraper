@@ -3,7 +3,7 @@ import csv
 
 html_source = ""
 
-with open("/Users/onurkskc/Documents/beautifulsoup/sahibindencom/7_mercedes.html", "r") as f:
+with open("file_name", "r") as f:
     html_source = f.read()
 
 soup = BeautifulSoup(html_source, "html.parser")
